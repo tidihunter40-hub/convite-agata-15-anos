@@ -4,7 +4,7 @@ Convite estático, responsivo e interativo. Abra `dist/index.html` em um servido
 
 ## Atualizar o evento
 
-Os dados oficiais estão em `dist/event.js`: 08/01/2027 às 20h, MTK EVENTOS em Gravataí, traje social ou sport fino e WhatsApp (51) 99536-9340. A contagem regressiva usa um instante com o fuso oficial da festa (`-03:00`). O prazo de resposta inclui o dia 18/12/2026 inteiro em Gravataí. O botão de confirmação prepara a mensagem no WhatsApp; o convidado precisa revisar e tocar em **Enviar** para concluir. `musicSrc` pode apontar para um áudio hospedado com o site; o controle só aparece quando configurado.
+Os dados oficiais estão em `dist/event.js`: 08/01/2027 às 20h, MTK EVENTOS em Gravataí, traje social ou esporte fino (sem azul) e WhatsApp (51) 99536-9340. A contagem regressiva usa um instante com o fuso oficial da festa (`-03:00`). O prazo de resposta inclui o dia 18/12/2026 inteiro em Gravataí. O botão de confirmação prepara a mensagem no WhatsApp; o convidado precisa revisar e tocar em **Enviar** para concluir. `musicSrc` pode apontar para um áudio hospedado com o site; o controle só aparece quando configurado.
 
 ## Visual e interação
 

@@ -7,6 +7,6 @@ window.AGATA_EVENT = {
   rsvpMessage: 'Olá! Estou confirmando minha presença na festa de 15 anos da Ágata Ractz, no dia 08 de janeiro de 2027.',
   venue: 'MTK EVENTOS',
   address: 'RS-020, 60 - Morada do Vale I, Gravataí - RS, 94090-720',
-  dressCode: 'Traje social ou sport fino',
+  dressCode: 'Traje social ou esporte fino; evitar a cor azul',
   musicSrc: ''
 };

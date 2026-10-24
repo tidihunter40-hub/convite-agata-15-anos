@@ -216,14 +216,15 @@ button:focus-visible,a:focus-visible{outline:2px solid #fff1ce;outline-offset:4p
   .action-menu{gap:.55cqw}
   .action-menu button{height:12cqw}
 }
-.stage.show-dress{width:min(100vw,45.099svh);aspect-ratio:842/1867}
+.stage.final-reference.show-dress{position:relative;left:auto;width:min(100vw,48.12svh);height:auto;aspect-ratio:870/1808;max-height:none;overflow:hidden;transform:none}
+.stage.final-reference .dress-screen{background:none}
 .dress-screen::before{content:none}
 .dress-static-art{position:absolute;z-index:1;inset:0;width:100%;height:100%;object-fit:fill;pointer-events:none;user-select:none}
-.dress-back-button{position:absolute;z-index:2;left:20%;top:81.2%;width:60%;height:7.7%;padding:0;border:0;border-radius:999px;background:transparent;touch-action:manipulation}
+.dress-back-button{position:absolute;z-index:2;left:19%;top:81.1%;width:62%;height:8.2%;padding:0;border:0;border-radius:999px;background:transparent;cursor:pointer;touch-action:manipulation}
 .dress-back-button:hover{box-shadow:0 0 18px #f4cf7955,inset 0 0 12px #f4cf7926}
 .dress-back-button:active{box-shadow:0 0 25px #f4cf7988,inset 0 0 20px #f4cf7955}
 .dress-back-button:focus-visible{outline:2px solid #fff1ce;outline-offset:3px}
-@media(max-width:600px){.stage.show-dress{width:100vw;height:100svh;aspect-ratio:auto}}
+@media(max-width:600px){.stage.final-reference.show-dress{left:0;width:100vw;height:207.816vw}}
 /* Composição aprovada: arte estática em camadas e controles reais sobre áreas limpas. */
 .experience{width:100%;overflow-x:clip;overflow-y:visible}
 .stage.final-reference.is-open:not(.show-rsvp):not(.show-details):not(.show-dress){position:relative;left:auto;width:min(100vw,47.687svh);height:100svh;aspect-ratio:866/1816;max-height:none;overflow:hidden;transform:none;animation:none}
