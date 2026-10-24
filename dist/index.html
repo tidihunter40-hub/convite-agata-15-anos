@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#04132d">
+  <meta name="description" content="Um convite especial para celebrar os 15 anos de Ágata Ractz.">
+  <title>Ágata Ractz · 15 anos</title>
+  <link rel="preload" href="assets/capa-agata.png" as="image">
+  <link rel="preload" href="assets/convite-molduras-limpas-v2.png" as="image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&amp;family=Great+Vibes&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=97">
+  <script defer src="event.js?v=4"></script>
+  <script defer src="script.js?v=19"></script>
+</head>
+<body>
+  <main class="experience">
+    <div class="stage final-reference" id="stage">
+      <img class="art scene-background" src="assets/fundo-sem-envelope.png" alt="" aria-hidden="true">
+      <img class="art cover-art" src="assets/capa-agata.png" alt="" aria-hidden="true">
+
+      <div class="opening-scene" aria-hidden="true">
+        <div class="envelope-back"></div>
+        <div class="letter-peek"></div>
+        <svg class="envelope-front" viewBox="0 0 941 1672" preserveAspectRatio="none" aria-hidden="true">
+          <defs><clipPath id="envelopePocketClip" clipPathUnits="userSpaceOnUse"><path d="M 140 806 L 470.5 889.5 L 802 806 L 802 1169 L 140 1169 Z"/></clipPath></defs>
+          <image href="assets/capa-agata.png" x="0" y="0" width="941" height="1672" preserveAspectRatio="none" clip-path="url(#envelopePocketClip)"/>
+        </svg>
+        <div class="envelope-caption-mask"></div>
+        <div class="envelope-flap"></div>
+        <div class="wax-seal"></div>
+      </div>
+
+      <button class="open-envelope" id="openEnvelope" type="button" aria-label="Abrir o convite de 15 anos de Ágata Ractz"></button>
+
+      <section class="invitation" id="invitation" aria-label="Convite de 15 anos de Ágata Ractz" aria-hidden="true">
+        <img class="art invitation-art" src="assets/convite-molduras-limpas-v2.png" alt="Carta de Ágata Ractz em azul-marinho e dourado">
+        <img class="art clean-bottom-art" src="assets/convite-fundo-limpo-v2.png" alt="" aria-hidden="true">
+        <h1 class="sr-only">Ágata Ractz — 15 anos</h1>
+        <div class="invite-extras">
+          <p class="event-date"><svg aria-hidden="true" viewBox="0 0 48 48" fill="none"><rect x="6" y="10" width="36" height="32" rx="2"/><path d="M6 19h36M15 5v11M33 5v11M14 27h5m5 0h5m5 0h1M14 34h5m5 0h5"/></svg><span id="eventDate">08 de janeiro de 2027</span><span class="date-separator" aria-hidden="true">✦</span><svg aria-hidden="true" viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="18"/><path d="M24 12v13l9 6"/></svg><span id="eventTime">20h</span></p>
+          <div class="countdown-shell" aria-label="Contagem regressiva para a festa">
+            <div class="countdown-face" id="countdownFace">
+              <div><strong id="countDays">00</strong><span>dias</span></div>
+              <div><strong id="countHours">00</strong><span>horas</span></div>
+              <div><strong id="countMinutes">00</strong><span>minutos</span></div>
+              <div><strong id="countSeconds">00</strong><span>segundos</span></div>
+            </div>
+            <p class="countdown-complete" id="countdownComplete" hidden>O grande momento chegou!</p>
+          </div>
+          <nav class="action-menu" aria-label="Opções do convite">
+            <button id="confirmPresence" type="button" aria-label="Confirmar presença"><span class="action-icon" aria-hidden="true"><svg viewBox="4 9 40 30" fill="none"><rect x="7" y="13" width="34" height="23" rx="2"/><path d="m8 15 16 13 16-13"/></svg></span><span class="action-label">Confirmar presença</span><span class="action-arrow" aria-hidden="true">→</span></button>
+            <button id="viewLocation" type="button" aria-label="Ver localização da festa"><span class="action-icon" aria-hidden="true"><svg viewBox="8 2 32 42" fill="none"><path d="M24 42s13-13 13-25a13 13 0 1 0-26 0c0 12 13 25 13 25Z"/><circle cx="24" cy="18" r="4.5"/></svg></span><span class="action-label">Ver localização</span><span class="action-arrow" aria-hidden="true">→</span></button>
+            <button id="viewDress" type="button" aria-label="Ver dress code"><span class="action-icon" aria-hidden="true"><svg viewBox="4 4 40 37" fill="none"><path d="M21 12c0-3 2-5 5-5s5 2 5 5c0 3-2 4-5 6l-2 2 17 11a4 4 0 0 1-2 7H9a4 4 0 0 1-2-7l17-11"/></svg></span><span class="action-label">Dress Code</span><span class="action-arrow" aria-hidden="true">→</span></button>
+          </nav>
+        </div>
+        <button class="return-link cover-return" id="returnCover" type="button">← Voltar ao envelope</button>
+      </section>
+
+      <section class="rsvp-screen inner-screen" id="rsvpScreen" aria-label="Confirmação de presença" aria-hidden="true">
+        <img class="rsvp-static-art" src="assets/confirmacao-presenca-agata.png" alt="" aria-hidden="true">
+        <div class="rsvp-accessible-copy visually-hidden">
+          <p id="rsvpDeadlineText">Confirme sua presença até 18 de dezembro de 2026.</p>
+          <p id="rsvpClosed" hidden>O prazo de confirmação foi encerrado.</p>
+          <small id="rsvpHint">Revise e envie a mensagem no WhatsApp para confirmar.</small>
+        </div>
+        <a id="rsvpWhatsApp" class="rsvp-hotspot rsvp-whatsapp-hotspot" target="_blank" rel="noopener noreferrer" aria-label="Confirmar pelo WhatsApp">Confirmar pelo WhatsApp</a>
+        <span id="rsvpExpiredCover" class="rsvp-expired-cover" hidden>Prazo encerrado</span>
+        <button class="rsvp-hotspot rsvp-back-hotspot" id="backFromRsvp" type="button" aria-label="Voltar ao convite">Voltar ao convite</button>
+      </section>
+
+      <section class="details-screen inner-screen" id="detailsScreen" aria-label="Informações da festa" aria-hidden="true">
+        <img class="details-static-art" src="assets/localizacao-agata.png" alt="" aria-hidden="true">
+        <div class="details-accessible-copy visually-hidden">
+          <h2>Localização da festa</h2>
+          <h3 id="venueName">MTK EVENTOS</h3>
+          <address id="venueAddress">RS-020, 60 - Morada do Vale I, Gravataí - RS, 94090-720</address>
+          <p id="venueWhen">08 de janeiro de 2027 ✦ 20h</p>
+        </div>
+        <a id="mapsLink" class="details-hotspot details-maps-hotspot" target="_blank" rel="noopener noreferrer" aria-label="Ver localização no Google Maps">Ver no Google Maps</a>
+        <button class="details-hotspot details-back-hotspot" id="returnInvitation" type="button" aria-label="Voltar ao convite">Voltar ao convite</button>
+      </section>
+
+      <section class="dress-screen inner-screen" id="dressScreen" aria-label="Dress code" aria-hidden="true">
+        <img class="dress-static-art" src="assets/dress-code-agata.png" alt="Ágata Ractz, 15 anos. Dress Code: traje social ou sport fino. Para essa noite tão especial, o traje sugerido é social ou sport fino.">
+        <button class="dress-back-button" id="backFromDress" type="button" aria-label="Voltar ao convite"></button>
+      </section>
+
+      <button class="music-control" id="musicControl" type="button" aria-label="Ativar música" hidden></button>
+      <audio id="ambientAudio" loop preload="none"></audio>
+    </div>
+  </main>
+</body>
+</html>
